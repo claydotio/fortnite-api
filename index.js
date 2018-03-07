@@ -257,6 +257,9 @@ class FortniteApi {
         case "fr":
           headers["Accept-Language"] = "fr-FR";
           break;
+        case "es":
+          headers["Accept-Language"] = "es-ES";
+          break;
         case "en":
           headers["Accept-Language"] = "en";
           break;
@@ -314,6 +317,9 @@ class FortniteApi {
         case "fr":
           headers["X-EpicGames-Language"] = "fr-FR";
           break;
+        case "es":
+          headers["X-EpicGames-Language"] = "es-ES";
+          break;
         case "en":
           headers["X-EpicGames-Language"] = "en";
           break;
@@ -345,6 +351,9 @@ class FortniteApi {
       switch (lang.toLowerCase()) {
         case "fr":
           headers["X-EpicGames-Language"] = "fr-FR";
+          break;
+        case "es":
+          headers["X-EpicGames-Language"] = "es-ES";
           break;
         case "en":
           headers["X-EpicGames-Language"] = "en";
